@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "BUILD_TYPE=Debug ./scripts/build.sh ${fileBasenameNoExtension}",
+      "options": {
+        "shell": {
+          "executable": "E:\\Git\\Git\\bin\\bash.exe",
+          "args": [
+            "-c"
+          ]
+        }
+      },
+      "problemMatcher": []
+    }
+  ]
+}

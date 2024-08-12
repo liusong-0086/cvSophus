@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "name": "(Windows) Launch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/install/bin/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "preLaunchTask": "build",
+      "cwd": "${workspaceFolder}/install/bin",
+      "environment": [],
+    }
+  ]
+}
