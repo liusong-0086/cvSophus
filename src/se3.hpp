@@ -157,7 +157,7 @@ namespace cvSophus
 
         cv::Matx<datatype, 4, 4> matrix() const
         {
-            return data_.matrix();
+            return data_.matrix;
         }
 
         /// @brief to the std::vector of rotation vector and translation
